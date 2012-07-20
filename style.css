@@ -1,0 +1,168 @@
+/*
+Theme Name: Purple
+Theme URI: http://www.boneita.com/
+Description: Theme for the PMSMinistry.com Blog
+Author: Mykone Saunders
+Author URI: http://www.mykone.net/
+Version: 1.0
+Tags: purple, responsive, adaptive, two-columns, fixed-width
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+body
+{
+	background-color:#3E3E3E;
+	margin:0;
+}
+
+body *
+{
+	color:#474747;
+	font-family:Arial;	
+	font-size:0.97em;
+}
+
+	h1,h2,h3
+	{
+		color:#BA3C69
+	}
+	
+	h1{font-size:1.1em;}
+	h2{font-size:1.2em;}
+	h3{font-size:1.3em;}
+	
+	#p-canvas{
+			margin: 0 auto;
+			width:990px;
+		}
+	
+	#top-section {
+		background:white;
+		xheight:151px;
+		XX-moz-border-radius: 10px;
+		XX-webkit-border-radius: 10px;
+		border-radius: 0 0 10px 10px; /* future proofing */
+		XX-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	}
+		#logo-area
+		{
+			height:90px;
+		}
+		
+		#menu
+		{
+			height:34px;
+			float:left;
+		}		
+
+			#menu ul
+			{
+				list-style:none;
+				margin:0;
+				padding:0;
+			}
+			
+				#menu ul li
+				{
+					display:inline-block;
+					padding:1px 15px;
+				}
+				
+					#menu ul li a
+					{
+						text-decoration:none;
+						color:#5A6F9A;
+						font-weight:bold;
+					}
+					
+					#menu ul li a:hover
+					{
+						color:#BA3C69
+					}
+		
+		#search-form
+		{
+			float:right;
+		}
+				
+	#banner
+	{
+		margin-top:10px;
+		border:3px solid white;
+		width:981px;
+		height:332px;
+		overflow:hidden;
+	}
+	
+	#content
+	{
+		min-height:200px;
+	}
+
+#footer
+{
+	margin-top:10px;
+	text-align:center;
+	color:#777;
+	font-size:0.7em;
+}
+
+div .wrapper
+{
+	margin:10px;
+	padding:1px;	
+}
+
+.clear
+{
+	clear:both;
+}
+
+.search-box
+{
+	border:1px solid #999;
+	height:20px;
+	border-radius: 10px 0 0 10px;
+	text-indent:10px;
+}
+
+.content-curve-all
+{
+	margin-top:20px;	
+	border-radius: 10px 10px;
+	background:white;	
+}
+
+#below-content
+{
+	width:100%;
+}
+	
+.features	
+{
+	float:left;
+	margin-right:5px;
+	margin: 0 auto;
+}
+	.feature-content
+	{
+		float:left;		
+		background:#E2E8F1;
+		margin-right:10px;
+		width:32%;		
+	}
+	
+.drop-shadow
+{
+	-moz-box-shadow: 3px 3px 4px #999;
+	-webkit-box-shadow: 3px 3px 4px #999;
+	box-shadow: 3px 3px 4px #999;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');	
+}
